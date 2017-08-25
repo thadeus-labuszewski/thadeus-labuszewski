@@ -1,0 +1,41 @@
+<section class="section-clients">
+
+  <h3 id="mymusic">My Music</h3>
+
+  <div class="clients-mobile-nav">
+    {% for client in site.data.settings.clients %}
+        <span class="client-button {% if forloop.first %}active-client{% endif %}"></span>
+    {% endfor %}
+  </div>
+  <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/347291241&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+  <!--<div class="clients-belt">
+    {% for client in site.data.settings.clients %}
+      <div class="client-unit {% if forloop.first %}active-client{% endif %}">
+
+        <figure class="client-face">
+          <img src="{{ site.github.url }}/assets/img/clients/{{ client.avatar }}" alt="client-face">
+          <figcaption>
+            <strong class="client-name">{{ client.name }}</strong>
+            <em class="client-title">{{ client.title }}</em>
+          </figcaption>
+        </figure>
+
+        <div class="client-content">
+          <div class="client-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+          {{ client.quote }}
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+
+  
+
+  <div class="clients-logos">
+    {% for client in site.data.settings.clients %}
+        <img class="client-logo {% if forloop.first %}active-client{% endif %}" src="{{ site.github.url }}/assets/img/clients/{{ client.logo }}" align="{{ client.logo }}">
+    {% endfor %}-->
+  </div>
+
+</section>

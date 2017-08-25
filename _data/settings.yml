@@ -1,0 +1,89 @@
+#-------------------------------
+# General Site Settings
+
+title: Thadeus Labuszewski
+description: Student // Programmer // Producer
+email: thadeuslabuszewski@gmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Skills, url: '#skills'}
+- {name: My Music, url: '#mymusic'}
+- {name: Blog, url: 'https://tyrannosaurus-flex.tumblr.com/'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Hi welcome to my website.**  My name is Thadeus Labusewski and I built this website so that I could learn the inner workings of HTML, CSS and SASS. 
+  I am currently a sophmore at the University of Colorado, Boulder, pursuing a Bachelor of Science in computer science. I love coding, creating/listnening to music and long walks on the beach!'
+  
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  **Hi welcome to my website.**  My name is Thadeus Labusewski and I built this website so that I could learn the inner workings of HTML, CSS and SASS. 
+  I am currently a sophmore at the University of Colorado, Boulder, pursuing a Bachelor of Science in computer science. 
+  I love coding, creating/listnening to music and long walks on the beach! Feel free to navigate to [my music blog](https://tyrannosaurus-flex.tumblr.com/){:target="_blank"} where I write about 
+  new tracks I've discovered or scroll down to [my music](#mymusic) to listen to all the songs that I have produced. 
+  Thank you for taking the time to check out my website! 
+  
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Teamwork, value: '10'}
+- {name: Planning, value: '7'}
+- {name: Programming, value: '6'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
+
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'github', link: 'https://github.com/thadeus-labuszewski'}
+- {icon: 'soundcloud', link: 'https://soundcloud.com/shady_nasty_music'}
+- {icon: 'facebook', link: 'https://www.facebook.com/thadeus.labuszewski'}
+- {icon: 'linkedin', link: ''}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

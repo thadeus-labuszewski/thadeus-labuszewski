@@ -1,0 +1,18 @@
+# Layout settings
+
+animation: "bounceOut"
+
+# Images
+
+logo: ""
+hero: "gang-18.jpg"
+avatar: "headshot.jpg"
+
+# Colors
+
+accent: "#729f98"
+
+textColor: "#666"
+headlineColor: "#333"
+bgcolor: "#f0eceb"
+documentBackgroundColor: "#fff"
